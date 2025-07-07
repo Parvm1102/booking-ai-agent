@@ -37,7 +37,7 @@ A modern calendar booking application powered by **Gemini AI**, **LangGraph**, a
 
 ```bash
 git clone <repository-url>
-cd intern
+cd booking-ai-agent
 pip install -r requirements.txt
 ```
 
@@ -136,7 +136,7 @@ GET /calendar/availability?start_time=...&end_time=...
 ## 🏗️ Project Structure
 
 ```
-intern/
+booking-ai-agent/
 ├── backend/
 │   ├── main.py              # FastAPI application
 │   ├── langgraph_agent.py   # LangGraph agent implementation
