@@ -7,6 +7,8 @@ cachetools==5.5.2
 certifi==2025.6.15
 charset-normalizer==3.4.2
 click==8.2.1
+dateparser==1.2.2
+dotenv==0.9.9
 fastapi==0.115.14
 filetype==1.2.0
 gitdb==4.0.12
@@ -17,6 +19,7 @@ google-api-python-client==2.175.0
 google-auth==2.40.3
 google-auth-httplib2==0.2.0
 google-auth-oauthlib==1.2.2
+google-generativeai==0.8.5
 googleapis-common-protos==1.70.0
 grpcio==1.73.1
 grpcio-status==1.73.1
@@ -56,10 +59,11 @@ pydantic_core==2.33.2
 pydeck==0.9.1
 pyparsing==3.2.3
 python-dateutil==2.9.0.post0
-pytz==2025.2
 python-dotenv==1.0.0
+pytz==2025.2
 PyYAML==6.0.2
 referencing==0.36.2
+regex==2024.11.6
 requests==2.32.4
 requests-oauthlib==2.0.0
 requests-toolbelt==1.0.0
@@ -73,13 +77,14 @@ streamlit==1.46.1
 tenacity==9.1.2
 toml==0.10.2
 tornado==6.5.1
+tqdm==4.67.1
 typing-inspection==0.4.1
 typing_extensions==4.14.1
 tzdata==2025.2
+tzlocal==5.3.1
 uritemplate==4.2.0
 urllib3==2.5.0
 uvicorn==0.35.0
 watchdog==6.0.0
 xxhash==3.5.0
 zstandard==0.23.0
-dateparser>=1.2.0
