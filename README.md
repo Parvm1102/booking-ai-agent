@@ -1,6 +1,8 @@
 # 📅 AI Calendar Booking Assistant
 
-A modern calendar booking application powered by **Gemini AI**, **LangGraph**, and **Google Calendar API**. This application allows users to interact with their calendar using natural language through an AI assistant.
+A modern calendar booking application powered by **Gemini AI**, **LangGraph**, and **Google Calendar API**. This application allows users to interact with their calendar using natural language through an AI assistant. 
+
+## The project is live on https://booking-ai-agent-aff7.onrender.com/ and you can view the changes in this [calendar](https://calendar.google.com/calendar/u/0?cid=YWQ5ZDhmYWI5MmM4MGFhYjdjN2JhYjc4YzEwOGExZGY0MTQwNTBhYTdjMTg3OTk1ZTE2YzYyNjZkZjg2ZmZmY0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t)
 
 ## 🚀 Features
 
