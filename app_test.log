@@ -1,0 +1,18 @@
+📅 AI Calendar Booking Assistant
+========================================
+✅ All dependencies are installed
+
+🔧 Starting services...
+🚀 Starting FastAPI backend...
+✅ Backend started successfully
+🚀 Starting Streamlit frontend...
+✅ Frontend started successfully
+
+🎉 Application started successfully!
+📱 Frontend: http://localhost:8501
+🔧 Backend:  http://localhost:8000
+📖 API Docs: http://localhost:8000/docs
+
+Press Ctrl+C to stop all services
+❌ Backend process stopped unexpectedly
+✅ Frontend stopped
