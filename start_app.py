@@ -25,16 +25,16 @@ def check_dependencies():
         print("Please run: pip install -r requirements.txt")
         return False
 
-def check_env_file():
-    """Check if .env file exists"""
-    if not Path(".env").exists():
-        print("⚠️  .env file not found")
-        print("Please create a .env file with the following variables:")
-        print("GOOGLE_API_KEY=your_gemini_api_key_here")
-        print("GOOGLE_CALENDAR_ID=your_calendar_id_here")
-        print("SERVICE_ACCOUNT_FILE=service_account.json")
-        return False
-    return True
+# def check_env_file():
+#     """Check if .env file exists"""
+#     if not Path(".env").exists():
+#         print("⚠️  .env file not found")
+#         print("Please create a .env file with the following variables:")
+#         print("GOOGLE_API_KEY=your_gemini_api_key_here")
+#         print("GOOGLE_CALENDAR_ID=your_calendar_id_here")
+#         print("SERVICE_ACCOUNT_FILE=service_account.json")
+#         return False
+#     return True
 
 def check_service_account():
     """Check if service account file exists"""
@@ -122,10 +122,10 @@ def main():
     if not check_dependencies():
         sys.exit(1)
     
-    if not check_env_file():
-        print("Continue anyway? (y/n): ", end="")
-        if input().lower() != 'y':
-            sys.exit(1)
+    # if not check_env_file():
+    #     print("Continue anyway? (y/n): ", end="")
+    #     if input().lower() != 'y':
+    #         sys.exit(1)
     
     if not check_service_account():
         print("Continue anyway? (y/n): ", end="")
