@@ -1,4 +1,4 @@
-# 📅 AI Calendar Booking Assistant
+# calendarly
 
 A modern calendar booking application powered by **Gemini AI**, **LangGraph**, and **Google Calendar API**. This application allows users to interact with their calendar using natural language through an AI assistant. 
 
